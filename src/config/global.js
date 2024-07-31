@@ -1,17 +1,22 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
+    componenteFormativo: 'Preparaciones y usos de cremas en pastelería',
+    descripcionCurso:
+      'El componente presenta la preparación y usos de diversas cremas en pastelería, como la crema chantilly, pastelera, inglesa y de mantequilla. Incluye recetas detalladas, equipos e ingredientes necesarios, y técnicas de elaboración. Además, se mencionan métodos de preparación para batidos livianos y pesados, así como decoraciones con pastillaje, ganache, brillo de chocolate y salsas de frutas.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.png'),
       },
       {
         clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.png'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.png'),
       },
     ],
   },
@@ -31,28 +36,111 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Cremas ',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
+            titulo: 'Crema <em>chantilly</em>',
             hash: 't_1_1',
+          },
+          {
+            numero: '1.2',
+            titulo: 'Crema pastelera',
+            hash: 't_1_2',
+          },
+          {
+            numero: '1.3',
+            titulo: 'Crema inglesa',
+            hash: 't_1_3',
+          },
+          {
+            numero: '1.4',
+            titulo: 'Crema de mantequilla',
+            hash: 't_1_4',
+          },
+          {
+            numero: '1.5',
+            titulo: 'Cremas industriales',
+            hash: 't_1_5',
           },
         ],
       },
-
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Batidos livianos y pesados',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '2.1',
+            titulo: 'Bizcochuelo o <em>biscuit</em>',
+            hash: 't_2_1',
+          },
+          {
+            numero: '2.2',
+            titulo: 'Batido pesado',
+            hash: 't_2_2',
+          },
+          {
+            numero: '2.3',
+            titulo: 'Ponqué de novia',
+            hash: 't_2_3',
+          },
+          {
+            numero: '2.4',
+            titulo: '<em>Brownie</em>',
+            hash: 't_2_4',
+          },
+          {
+            numero: '2.5',
+            titulo: '<em>Muffin:</em> ponquecito dulce',
+            hash: 't_2_5',
+          },
+          {
+            numero: '2.6',
+            titulo: '<em>Cupcake</em>',
+            hash: 't_2_6',
+          },
+          {
+            numero: '2.7',
+            titulo: '<em>Cupcake</em> de chocolate',
+            hash: 't_2_7',
+          },
+        ],
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Decoración',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '3.1',
+            titulo: 'Pastillaje para piezas fuertes y figuras decorativas',
+            hash: 't_3_1',
+          },
+          {
+            numero: '3.2',
+            titulo: 'Cubierta de pastillaje para cake de ceremonia',
+            hash: 't_3_2',
+          },
+          {
+            numero: '3.3',
+            titulo: 'Brillo de chocolate',
+            hash: 't_3_3',
+          },
+          {
+            numero: '3.4',
+            titulo: 'Cubierta <em>ganache</em>',
+            hash: 't_3_4',
+          },
+          {
+            numero: '3.5',
+            titulo: 'Salsa de frutas',
+            hash: 't_3_5',
+          },
+        ],
       },
     ],
     subMenu: [
@@ -102,32 +190,152 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      tema: 'Cremas',
+      referencia: 'SENA (2012). Pastelería Cap1 [Archivo de video] Youtube.',
+      tipo: 'Video',
+      link: 'https://youtu.be/ODB4fO0t9LE?feature=shared',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: 'Crema <em>chantilly</em>',
+      referencia:
+        'Juliana Postres (2020). Cómo Hacer Una Crema Chantillí Perfecta. [Archivo de video] Youtube.',
+      tipo: 'Video',
+      link:
+        'https://www.youtube.com/watch?v=3-QusyQJLZI&ab_channel=JulianaPostres',
+    },
+    {
+      tema: 'Crema pastelera',
+      referencia:
+        'Chef JoséRa Castillo (2023). CEEMA PASTELERA! ¿Qué errores evitar al prepararla? Mis consejos revelados  [Archivo de video] Youtube.',
+      tipo: 'Video',
+      link:
+        'https://www.youtube.com/watch?v=sjKNSj56me8&ab_channel=ChefJos%C3%A9RaCastillo',
+    },
+    {
+      tema: 'Crema inglesa',
+      referencia:
+        'CanalCandido (2012). Crema inglesa [Archivo de video] Youtube.',
+      tipo: 'Video',
+      link:
+        'https://www.youtube.com/watch?v=v5php-jW_Ig&ab_channel=CanalCandido',
+    },
+    {
+      tema: '<em>Brownie</em>',
+      referencia:
+        'Cocina Para Todos (2019). El mejor BROWNIE de CHOCOLATE del Mundo.  [Archivo de video] Youtube.',
+      tipo: 'Video',
+      link:
+        'https://www.youtube.com/watch?v=xlB8o0HsYcQ&ab_channel=CocinaParaTodos',
+    },
+    {
+      tema: '<em>Muffin:</em> ponquecito dulce ',
+      referencia:
+        'Cuk-it!. (2023). MUFFINS de ARÁNDANOS con Crumble - CUKit! [Archivo de video] Youtube. ',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=-XFA_J7Cs7U&ab_channel=Cuk-it%21',
     },
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Texto de la definición',
+      termino: 'Balanza',
+      significado:
+        'instrumento utilizado para medir el peso de los ingredientes con precisión.',
     },
     {
-      termino: '<em>Término con extranjerismo</em>',
-      significado: 'Definición',
+      termino: 'Batidora',
+      significado:
+        'dispositivo eléctrico o manual utilizado para mezclar y batir ingredientes hasta obtener la consistencia deseada.',
+    },
+    {
+      termino: 'Crema <em>chantilly</em>',
+      significado:
+        'preparación dulce a base de crema de leche y azúcar, caracterizada por su textura suave y esponjosa.',
+    },
+    {
+      termino: 'Crema inglesa',
+      significado:
+        'también conocida como salsa inglesa, es una preparación líquida y suave utilizada principalmente como salsa para postres.',
+    },
+    {
+      termino: 'Crema pastelera',
+      significado:
+        'crema básica y fundamental en pastelería, utilizada como relleno en una variedad de productos de panadería.',
+    },
+    {
+      termino: 'Espátula',
+      significado:
+        'herramienta de cocina utilizada para mezclar, esparcir o manipular ingredientes y mezclas. puede ser de madera, caucho o plástico.',
+    },
+    {
+      termino: 'Fécula',
+      significado:
+        'sustancia en polvo utilizada como espesante en diversas preparaciones culinarias.',
+    },
+    {
+      termino: 'Ganache',
+      significado:
+        'mezcla de crema de leche y chocolate utilizada para cubrir, rellenar y decorar tortas y otros postres.',
+    },
+    {
+      termino: 'Glucosa',
+      significado:
+        'tipo de azúcar utilizado en la preparación de diversas cremas y decoraciones para darles una textura suave y brillante.',
+    },
+    {
+      termino: 'Merengue italiano',
+      significado:
+        'preparación de repostería hecha a base de claras de huevo y almíbar caliente, utilizada para cubrir y decorar pasteles.',
+    },
+    {
+      termino: 'Tamiz',
+      significado:
+        'herramienta utilizada para separar y airear ingredientes en polvo, como harina o azúcar.',
     },
   ],
   referencias: [
     {
-      referencia: '',
-      link: '',
+      referencia: 'Adrià, A. (2018). Los postres del Bulli.',
+      link:
+        'https://libroschorcha.wordpress.com/wp-content/uploads/2018/06/los-postres-del-bulli-albert-adria.pdf',
+    },
+    {
+      referencia:
+        'Barahona, H.  (2014). ELABORACIÓN DE CREMAS PARA PASTELERÍA MEDIANTE LA UTILIZACIÓN DE LECHES VEGETALES DE ALMENDRA, NUEZ Y MANI, RIOBAMBA.',
+      link:
+        'http://dspace.espoch.edu.ec/bitstream/123456789/10280/1/84T00374.pdf',
+    },
+    {
+      referencia: 'CAPLAB. (2011). Pastelería: Guía del estudiante.',
+      link:
+        'http://biblioteca.esucomex.cl/RCA/Pasteler%C3%ADa.%20Gu%C3%ADa%20del%20estudiante.pdf',
+    },
+    {
+      referencia:
+        'Carmona, A.  (2023). Las delicias de Almería. Postres el sabor de tu pueblo.',
+      link: 'https://www.terrazacarmona.com/pdf/Libro%20recetas%20Postres.pdf',
+    },
+    {
+      referencia:
+        'Díaz Ramiro, F. (2010). Cremas, rellenos y salsas más utilizados en pastelería.',
+      link:
+        'https://archivos.csif.es/archivos/andalucia/ensenanza/revistas/csicsif/revista/pdf/Numero_31/FRANCISCO_%20DIAZ%20RAMIRO_2.pdf',
+    },
+    {
+      referencia:
+        'INATEC (2016). Manual del Protagonista Postres de Restaurante.',
+      link:
+        'https://tecnologicodematagalpa.files.wordpress.com/2016/07/postres-de-restaurantes.pdf',
+    },
+    {
+      referencia: 'Obregón, A. (2021). Repostería Tradicional. Planeta.',
+      link:
+        'https://proassetspdlcom.cdnstatics2.com/usuaris/libros_contenido/arxius/48/47938_Reposteria_Tradicional.pdf ',
+    },
+    {
+      referencia:
+        'Rodríguez, C.  (2020). Desarrollo del Manual de procesos y funciones de la Panadería y Pastelería.',
+      link:
+        'https://dspace.ups.edu.ec/bitstream/123456789/19111/4/UPS-GT002980.pdf',
     },
   ],
   creditos: [

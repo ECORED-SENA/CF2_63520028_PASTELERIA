@@ -15,27 +15,39 @@ export default {
   components: { Actividad },
   data: () => ({
     cuestionario: {
-      tema: 'Manejo de los residuos sólidos en la producción avícola.',
+      tema: 'Explorando las cremas en la pastelería.',
       titulo: 'Cuestionario',
       introduccion:
-        'Lea cada enunciado y luego seleccione la respuesta correcta según corresponda.',
+        'Identificación en la elaboración, uso y decoración de productos de repostería, fomentando la precisión y creatividad en su práctica profesional.',
       barajarPreguntas: false,
       preguntas: [
         {
           id: 1,
           texto:
-            'Cuáles son los tipos de explotación en los sistemas productivos avícolas:',
-          imagen: require('@/assets/componentes/pregunta_1.svg'),
+            '¿Cuál de las siguientes cremas es utilizada principalmente para decorar y acompañar frutas frescas?',
+          imagen: require('@/assets/actividad/pregunta_1.png'),
           barajarRespuestas: false,
           opciones: [
-            { id: 'a', texto: 'Explotación intensiva', esCorrecta: false },
-            { id: 'b', texto: 'Explotación semi intensiva', esCorrecta: false },
             {
-              id: 'c',
-              texto: 'Explotación extensiva o traspatio',
+              id: 'a',
+              texto: 'Crema pastelera',
               esCorrecta: false,
             },
-            { id: 'd', texto: 'Todas la anteriores', esCorrecta: true },
+            {
+              id: 'b',
+              texto: 'Crema <em>chantilly</em>',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Crema inglesa',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Crema de Mantequilla',
+              esCorrecta: false,
+            },
           ],
           mensaje_correcto: '¡Respuesta correcta! Felicidades.',
           mensaje_incorrecto: 'Respuesta incorrecta. Intenta nuevamente ....',
@@ -43,77 +55,280 @@ export default {
         {
           id: 2,
           texto:
-            'Se lanzan dos proyectiles desde el suelo con la misma velocidad inicial, pero uno se lanza horizontalmente y el otro se lanza formando un ángulo de 45 grados con la horizontal. Considerando la resistencia del aire despreciable, ¿cuáles de las siguientes afirmaciones son verdaderas?',
-          imagen: require('@/assets/componentes/pregunta_2.png'),
-          barajarRespuestas: true,
+            '¿Qué ingrediente es esencial en la elaboración de la crema pastelera?',
+          imagen: require('@/assets/actividad/pregunta_2.png'),
+          barajarRespuestas: false,
           opciones: [
             {
               id: 'a',
-              texto: 'Ambos proyectiles alcanzarán la misma altura máxima.',
+              texto: 'Mantequilla',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto:
-                'El proyectil lanzado horizontalmente recorrerá una distancia horizontal mayor que el proyectil lanzado a 45 grados',
+              texto: 'Leche',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Crema de leche',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Agua',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Respuesta correcta! Felicidades.',
+          mensaje_incorrecto: 'Respuesta incorrecta. Intenta nuevamente ....',
+        },
+        {
+          id: 3,
+          texto:
+            'Cuál de los siguientes equipos NO es necesario para preparar crema <em>chantilly</em>?',
+          imagen: require('@/assets/actividad/pregunta_3.png'),
+          barajarRespuestas: false,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Batidora industrial o manual',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Espátula de caucho',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto:
-                'La velocidad horizontal del proyectil lanzado a 45 grados será mayor que la velocidad horizontal del proyectil lanzado horizontalmente.',
+              texto: 'Licuadora',
               esCorrecta: true,
             },
             {
               id: 'd',
-              texto:
-                'La velocidad total del proyectil lanzado a 45 grados en el punto más alto de su trayectoria será la misma que la velocidad horizontal del proyectil lanzado horizontalmente en cualquier punto de su trayectoria.',
+              texto: 'Tamiz',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto:
-            '¡Perfecto! Has seleccionado la respuesta correcta.',
-          mensaje_incorrecto: 'Esa no es la respuesta correcta. ¡Ánimo!',
-        },
-        {
-          id: 3,
-          texto: 'Texto de la tercera pregunta 3',
-          imagen: require('@/assets/curso/banner-princiapal.svg'),
-          opciones: [
-            { id: 'a', texto: 'Opción A', esCorrecta: false },
-            { id: 'b', texto: 'Opción B', esCorrecta: false },
-            { id: 'c', texto: 'Opción C', esCorrecta: false },
-            { id: 'd', texto: 'Opción D', esCorrecta: true },
-          ],
-          mensaje_correcto: '¡Muy bien! Esa es la respuesta correcta.',
-          mensaje_incorrecto: 'Respuesta incorrecta. ¡Inténtalo de nuevo!',
+          mensaje_correcto: '¡Respuesta correcta! Felicidades.',
+          mensaje_incorrecto: 'Respuesta incorrecta. Intenta nuevamente ....',
         },
         {
           id: 4,
-          texto: 'Texto de la cuarta pregunta 4',
-          imagen: require('@/assets/curso/banner-princiapal.svg'),
-          barajarRespuestas: true,
+          texto:
+            '¿Cuál es el porcentaje de grasa recomendado para la crema de leche usada en la crema <em>chantilly</em>?',
+          imagen: require('@/assets/actividad/pregunta_4.png'),
+          barajarRespuestas: false,
           opciones: [
-            { id: 'a', texto: 'Opción A', esCorrecta: true },
-            { id: 'b', texto: 'Opción B', esCorrecta: false },
-            { id: 'c', texto: 'Opción C', esCorrecta: false },
-            { id: 'd', texto: 'Opción D', esCorrecta: false },
+            {
+              id: 'a',
+              texto: '10-20%',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: '20-30%',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: '30-42%',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: '42-50%',
+              esCorrecta: false,
+            },
           ],
           mensaje_correcto: '¡Respuesta correcta! Felicidades.',
-          mensaje_incorrecto: 'Respuesta incorrecta. Intenta nuevamente.',
+          mensaje_incorrecto: 'Respuesta incorrecta. Intenta nuevamente ....',
         },
         {
           id: 5,
-          texto: 'Texto de la quinta pregunta 5',
-          imagen: require('@/assets/curso/banner-princiapal.svg'),
+          texto:
+            '¿Qué tipo de batido se caracteriza por incorporar una gran cantidad de aire?',
+          imagen: require('@/assets/actividad/pregunta_1.png'),
+          barajarRespuestas: false,
           opciones: [
-            { id: 'a', texto: 'Opción A', esCorrecta: false },
-            { id: 'b', texto: 'Opción B', esCorrecta: true },
-            { id: 'c', texto: 'Opción C', esCorrecta: false },
-            { id: 'd', texto: 'Opción D', esCorrecta: false },
+            {
+              id: 'a',
+              texto: 'Batido pesado',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Batido de mantequilla',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Batido liviano',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Batido de crema',
+              esCorrecta: false,
+            },
           ],
           mensaje_correcto: '¡Respuesta correcta! Felicidades.',
-          mensaje_incorrecto: 'Respuesta incorrecta. Intenta nuevamente.',
+          mensaje_incorrecto: 'Respuesta incorrecta. Intenta nuevamente ....',
+        },
+        {
+          id: 6,
+          texto:
+            '¿Cuál de los siguientes ingredientes se utiliza para la elaboración del brillo de chocolate?',
+          imagen: require('@/assets/actividad/pregunta_2.png'),
+          barajarRespuestas: false,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Mantequilla',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Gelatina',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Glucosa',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Harina',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Respuesta correcta! Felicidades.',
+          mensaje_incorrecto: 'Respuesta incorrecta. Intenta nuevamente ....',
+        },
+        {
+          id: 7,
+          texto: '¿Qué crema se conoce también como salsa inglesa?',
+          imagen: require('@/assets/actividad/pregunta_3.png'),
+          barajarRespuestas: false,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Crema <em>chantilly</em>',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Crema pastelera',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Crema inglesa',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Crema de mantequilla',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Respuesta correcta! Felicidades.',
+          mensaje_incorrecto: 'Respuesta incorrecta. Intenta nuevamente ....',
+        },
+        {
+          id: 8,
+          texto:
+            '¿Cuál de los siguientes no es un equipo necesario para la preparación de cremas en pastelería?',
+          imagen: require('@/assets/actividad/pregunta_4.png'),
+          barajarRespuestas: false,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Balanza',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Batidora',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Procesador de alimentos',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Tamiz',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Respuesta correcta! Felicidades.',
+          mensaje_incorrecto: 'Respuesta incorrecta. Intenta nuevamente ....',
+        },
+        {
+          id: 9,
+          texto:
+            '¿Qué tipo de decoración utiliza una mezcla de azúcar y otros ingredientes para crear piezas sólidas y estructurales?',
+          imagen: require('@/assets/actividad/pregunta_1.png'),
+          barajarRespuestas: false,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Ganache',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Brillo de chocolate',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Pastillaje',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Salsa de frutas',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Respuesta correcta! Felicidades.',
+          mensaje_incorrecto: 'Respuesta incorrecta. Intenta nuevamente ....',
+        },
+        {
+          id: 10,
+          texto:
+            '¿Cuál es el ingrediente opcional en la crema <em>chantilly</em> que puede agregarse para darle sabor? ',
+          imagen: require('@/assets/actividad/pregunta_2.png'),
+          barajarRespuestas: false,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Azúcar',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Crema de leche',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Vainilla',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Huevos',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Respuesta correcta! Felicidades.',
+          mensaje_incorrecto: 'Respuesta incorrecta. Intenta nuevamente ....',
         },
       ],
       mensaje_final_aprobado:
