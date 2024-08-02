@@ -94,6 +94,22 @@
     bottom: 0
     right: 6%
 
+.linea-tiempo-c__header__btn, .linea-tiempo-c__header__btn--left, .linea-tiempo-c__header__btn--right, .pasos-b__header__btn--left, .pasos-b__header__btn--right
+  border: 2px solid #9028E2
+  background-color: #9028E2
+
+.tabs-c__content-item
+  background-color: #E8EBF8
+.tabs-c__header
+  margin-bottom: 0px
+.tabs-c__tab.py-3.tabs-c__tab--active span
+  font-weight: bold
+.tabs-c__tab
+  border-bottom: 4px solid #F7C3EC
+
+.linea-tiempo-c__header__btn i, .linea-tiempo-c__header__btn--left i, .linea-tiempo-c__header__btn--right i, .pasos-b__header__btn--left i, .pasos-b__header__btn--right i
+  color: #fff
+
 /*******Tema 1*******/
 .cont_1_1
   transition: all .3s ease-in-out
@@ -126,6 +142,98 @@
   background-size: 100% 100%
   border-radius: 15px
 
+.cont_1_4, .cont_1_4 *
+  position: relative
+.cont_1_4:before
+  content: ''
+  position: absolute
+  width: 125%
+  height: 90%
+  bottom: 0
+  left: -15%
+  background: rgb(232,235,248)
+  background: linear-gradient(180deg, rgba(232,235,248,0) 0%, rgba(232,235,248,1) 40%, rgba(232,235,248,1) 70%, rgba(232,235,248,0) 100%)
+
+.cont_1_5,.cont_1_5 *
+  position: relative
+.cont_1_5:before
+  content: ''
+  position: absolute
+  width: 100%
+  height: 90%
+  left: 0
+  bottom: 0
+  background: url(../assets/curso/tema1/33.png)
+  background-size: 100% 100%
+  border-radius: 15px
+
+.cont_1_6
+  background: url(../assets/curso/tema1/24.png)
+  background-size: 100% 100%
+  border-radius: 15px
+
+.cont_1_7,.cont_1_7 *
+  position: relative
+.cont_1_7:before
+  content: ''
+  position: absolute
+  width: 125%
+  height: 100%
+  left: -15%
+  bottom: 0
+  background: url(../assets/curso/tema1/38.png)
+  background-size: 100% 100%
+
+.cont_1_8
+  background: url(../assets/curso/tema1/33.png)
+  background-size: 100% 100%
+  border-radius: 15px
+
+.cont_1_9,.cont_1_9 *
+  position: relative
+.cont_1_9:before
+  content: ''
+  position: absolute
+  width: 125%
+  height: 90%
+  left: -15%
+  top: 0
+  background: url(../assets/curso/tema1/71.png)
+  background-size: 100% 100%
+
+.cont_1_10
+  transition: all .3s ease-in-out
+  cursor: pointer
+.cont_1_10:hover
+  background-color: #D1D8F1 !important
+
 @media screen and (max-width: 992px)
-  .cont_1_2:before,.cont_1_3:before
+  .cont_1_2:before,.cont_1_3:before, .cont_1_5:before,.cont_1_6,.cont_1_7:before,.cont_1_9:before
     background-size: cover !important
+
+
+/******** Tema 2 **********/
+
+.cont_2_1, .cont_2_1 *
+  position: relative
+.cont_2_1:before
+  content: ''
+  position: absolute
+  width: 125%
+  height: 100%
+  bottom: 0
+  left: -15%
+  background: rgb(232,235,248)
+  background: linear-gradient(180deg, rgba(232,235,248,0) 0%, rgba(232,235,248,1) 40%, rgba(232,235,248,1) 70%, rgba(232,235,248,0) 100%)
+
+.cont_2_2,.cont_2_2 *
+  position: relative
+.cont_2_2:before
+  content: ''
+  position: absolute
+  width: 125%
+  height: 80%
+  left: -15%
+  bottom: 0
+  background: url(../assets/curso/tema2/24.png)
+  background-size: 100% 100%
