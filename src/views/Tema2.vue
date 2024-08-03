@@ -522,7 +522,7 @@
     Separador
 
     .titulo-segundo(data-aos="flip-up")
-      h2#t_2_5 2.5#[em Muffin:] ponquecito dulce
+      h2#t_2_5 2.5 #[em Muffin:] ponquecito dulce
     
     p(data-aos="fade-right") El #[em muffin] es un ponquecito dulce de origen estadounidense, caracterizado por su textura esponjosa y su forma individual. Es un tipo de batido pesado debido a su contenido de mantequilla y azúcar.
 
