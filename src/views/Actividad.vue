@@ -123,22 +123,22 @@ export default {
           opciones: [
             {
               id: 'a',
-              texto: '10-20%',
+              texto: '10-20 %',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: '20-30%',
+              texto: '20-30 %',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: '30-42%',
+              texto: '30-42 %',
               esCorrecta: true,
             },
             {
               id: 'd',
-              texto: '42-50%',
+              texto: '42-50 %',
               esCorrecta: false,
             },
           ],

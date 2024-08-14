@@ -149,7 +149,7 @@
           figure
             img(src="@/assets/curso/tema2/9.png")
         .col(style="place-self:center;")
-          p.mb-0 Los batidos pesados son considerados masas sin incorporación de aire, con un contenido de materia grasa superior al 50% del peso de la harina. Debido a su consistencia, también se les llama masas blandas.
+          p.mb-0 Los batidos pesados son considerados masas sin incorporación de aire, con un contenido de materia grasa superior al 50 % del peso de la harina. Debido a su consistencia, también se les llama masas blandas.
     
     .cont_decorativo.mb-4.mt-5(data-aos="fade-right")
       .row
@@ -195,7 +195,7 @@
           .row.col-xl-11.m-auto(titulo="Paso")
             .col-lg-7.mb-4.mb-lg-0(style="place-self:center;")
               h5 Hornear
-              p  Hornee teniendo en cuenta que, a mayor tamaño del molde, se requiere más tiempo y menor temperatura. Por ejemplo, un molde de torta de libra necesita 350 grados Fahrenheit por 1 hora. Para productos más pequeños, como cupcakes, hornee a 400 grados Fahrenheit por 15 minutos. Recuerde que aumentar la temperatura reduce el tiempo de horneado. 
+              p  Hornee teniendo en cuenta que, a mayor tamaño del molde, se requiere más tiempo y menor temperatura. Por ejemplo, un molde de torta de libra necesita 350 grados Fahrenheit por 1 hora. Para productos más pequeños, como #[em cupcakes], hornee a 400 grados Fahrenheit por 15 minutos. Recuerde que aumentar la temperatura reduce el tiempo de horneado. 
             .col-lg-5
               figure.m-auto.col-10.col-md-7.col-lg-12
                 img(src='@/assets/curso/tema2/14.png')
@@ -517,7 +517,7 @@
               img(src="@/assets/curso/tema2/33.png")
           .col-lg(data-aos="fade-up")
             p.fw-bold(style="color:#F7C3EC;") ¿Sabías qué? 
-            p.mb-0.text-white El brownie es una torta originaria de Estados Unidos a base de chocolate y muy importante en la pastelería mundial
+            p.mb-0.text-white El #[em brownie] es una torta originaria de Estados Unidos a base de chocolate y muy importante en la pastelería mundial
     
     Separador
 
@@ -670,7 +670,7 @@
     .titulo-segundo(data-aos="flip-up")
       h2#t_2_6 2.6 #[em Cupcake]
     
-    p(data-aos="fade-right") El #[em cupcake] es un pequeño pastel individual, similar al muffin pero generalmente más dulce y decorado con glaseado o crema. Es un tipo de batido pesado debido a su contenido de mantequilla y azúcar, y se caracteriza por su textura esponjosa y su atractivo visual.
+    p(data-aos="fade-right") El #[em cupcake] es un pequeño pastel individual, similar al #[em muffin] pero generalmente más dulce y decorado con glaseado o crema. Es un tipo de batido pesado debido a su contenido de mantequilla y azúcar, y se caracteriza por su textura esponjosa y su atractivo visual.
 
     .col-xl-10.m-auto.mt-4
       TabsC.color-acento-botones
@@ -875,7 +875,7 @@
           .row.col-xl-11.m-auto(titulo="Paso")
             .col-lg-7.mb-4.mb-lg-0(style="place-self:center;")
               h5 Verter en moldes
-              p Verter la mezcla en moldes para cupcakes previamente engrasados o con capacillos, llenándolos hasta dos tercios de su capacidad. 
+              p Verter la mezcla en moldes para #[em cupcakes] previamente engrasados o con capacillos, llenándolos hasta dos tercios de su capacidad. 
             .col-lg-5
               figure.m-auto.col-10.col-md-7.col-lg-12
                 img(src='@/assets/curso/tema2/50.png')
@@ -889,7 +889,7 @@
           .row.col-xl-11.m-auto(titulo="Paso")
             .col-lg-7.mb-4.mb-lg-0(style="place-self:center;")
               h5 Dejar enfriar
-              p Dejar enfriar los cupcakes en una rejilla antes de decorarlos. 
+              p Dejar enfriar los #[em cupcakes] en una rejilla antes de decorarlos. 
             .col-lg-5
               figure.m-auto.col-10.col-md-7.col-lg-12
                 img(src='@/assets/curso/tema2/52.png')

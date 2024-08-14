@@ -13,7 +13,7 @@
           figure
             img(src="@/assets/curso/tema3/1.png")
         .col.pe-lg-5(style="place-self:center;")
-          p.mb-0 Vista de ángulo alto de los cupcakes contra un fondo blancoLa decoración en pastelería es un arte que requiere precisión, creatividad y el uso de técnicas especializadas. Desde el pastillaje para crear piezas estructurales hasta la ganache para cubrir pasteles, cada técnica aporta un toque único y profesional a los postres. En este apartado, exploraremos diversas técnicas avanzadas de decoración, incluyendo el pastillaje para figuras decorativas, la cubierta de pastillaje para ponques  de ceremonia, el brillo de chocolate, la ganache y las salsas de frutas. Cada método se detallará con los equipos necesarios, ingredientes y pasos de elaboración para asegurar resultados impecables y deliciosos. 
+          p.mb-0 La decoración en pastelería es un arte que requiere precisión, creatividad y el uso de técnicas especializadas. Desde el pastillaje para crear piezas estructurales hasta la ganache para cubrir pasteles, cada técnica aporta un toque único y profesional a los postres. En este apartado, exploraremos diversas técnicas avanzadas de decoración, incluyendo el pastillaje para figuras decorativas, la cubierta de pastillaje para ponques  de ceremonia, el brillo de chocolate, la ganache y las salsas de frutas. Cada método se detallará con los equipos necesarios, ingredientes y pasos de elaboración para asegurar resultados impecables y deliciosos. 
     
     Separador
 
@@ -26,7 +26,7 @@
           figure
             img(src="@/assets/curso/tema3/3.svg")
         .col(style="place-self:center;" data-aos="fade-left")
-          p.mb-0 Primer plano de la mano de una mujer cortando un pastel durante una celebración de cumpleaños en casa El pastillaje es una mezcla de azúcar y otros ingredientes que se utiliza en repostería para crear piezas decorativas sólidas y estructurales. Es ideal para hacer figuras detalladas, estructuras, y otros adornos que necesitan mantenerse firmes y resistentes. 
+          p.mb-0 El pastillaje es una mezcla de azúcar y otros ingredientes que se utiliza en repostería para crear piezas decorativas sólidas y estructurales. Es ideal para hacer figuras detalladas, estructuras, y otros adornos que necesitan mantenerse firmes y resistentes. 
       
       .cont_decorativo.mb-4.mt-4(data-aos="fade-right")
         .row
@@ -488,16 +488,16 @@
                       th Cantidad
                   tbody
                     tr.bg-white
-                      td.p-3.text-center Crema de leche 34%
+                      td.p-3.text-center Crema de leche 34 %
                       td.p-3.text-center 1 kilo
                     tr.bg-white
                       td.p-3.text-center Sal
                       td.p-3.text-center 1 gramo
                     tr.bg-white
-                      td.p-3.text-center Cobertura de chocolate 65%
+                      td.p-3.text-center Cobertura de chocolate 65 %
                       td.p-3.text-center 1 kilo
                     tr.bg-white
-                      td.p-3.text-center Licor de naranja 70%
+                      td.p-3.text-center Licor de naranja 70 %
                       td.p-3.text-center 60 centímetros cúbicos
             .col-lg-5(style="place-self:center;")
               figure.m-auto.col-6.col-md-5.col-lg-12
@@ -529,7 +529,7 @@
               li.d-flex.mb-3
                 .lista-ol--cuadro__vineta(style="background-color:#F7C3EC;")
                   span.fw-bold(style="color:#12263F;") 3
-                div Adicione el licor de naranja cuando la mezcla baje a 50°C. 
+                div Adicione el licor de naranja cuando la mezcla baje a 50 °C. 
               li.d-flex.mb-0
                 .lista-ol--cuadro__vineta(style="background-color:#F7C3EC;")
                   span.fw-bold(style="color:#12263F;") 4
@@ -675,7 +675,7 @@
             figure
               img(src="@/assets/curso/tema3/40.png" style="max-width:100px;display:inline;")
             h4.mt-3 Tenga en cuenta que 
-            p.mb-0 Cuando utilice frutas con gran cantidad de ácidos, es recomendable elaborar primero una salsa para evitar que la crema se dañe. Por ejemplo, si desea hacer una crema #[em chantilly] con piña (una fruta muy ácida), debe elaborar primero la salsa de piña y después agregar está a la crema. 
+            p.mb-0 Cuando utilice frutas con gran cantidad de ácidos, es recomendable elaborar primero una salsa para evitar que la crema se dañe. Por ejemplo, si desea hacer una crema #[em chantilly] con piña (una fruta muy ácida), debe elaborar primero la salsa de piña y después agregar esta a la crema. 
             
 
 

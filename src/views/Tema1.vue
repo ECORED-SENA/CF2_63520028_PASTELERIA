@@ -150,7 +150,7 @@
           div Pasteurizada.
         li.d-flex
           i.fas.fa-bread-slice(style="color:#1D3FBB;")
-          div Tener entre el 30% y el 42% de contenido de grasa, para que tenga la consistencia adecuada requerida en pastelería.
+          div Tener entre el 30 % y el 42 % de contenido de grasa, para que tenga la consistencia adecuada requerida en pastelería.
       
       p.mt-4(data-aos="fade-left") Otras cremas de leche tienen menor contenido de grasa; por este motivo, no sirven. Así mismo, algunas tienen un mayor contenido de grasa, lo que también impide su uso adecuado.
 
@@ -254,7 +254,7 @@
                 div Porcentaje: proporción de un número que toma la referencia de 100. 
               li.d-flex.mb-0
                 i.fas.fa-bread-slice(style="color:#1D3FBB;")
-                div Por ejemplo el 10% es igual a 10/100.
+                div Por ejemplo, el 10 % es igual a 10/100.
       
       .row.mt-5
         .col-lg.mb-4.mb-lg-0(data-aos="fade-right")
@@ -292,7 +292,7 @@
                 img(src="@/assets/curso/tema1/37.png")
             .col-lg(data-aos="fade-up" style="place-self:center;")
               p.fw-bold.mb-0(style="color:#77F0E2;") Recomendaciones:
-              p.text-white Antes de comenzar el proceso se debe tener en cuenta que se va a utilizar:
+              p.text-white Antes de comenzar el proceso se debe tener en cuenta qué se va a utilizar:
               p.mb-0.text-white #[strong(style="color:#77F0E2 !important;") Una batidora industrial:] la velocidad a utilizar debe ser la segunda.
               p.mb-0.text-white #[strong(style="color:#77F0E2 !important;") Una batidora manual eléctrica:] utilice la velocidad cuatro.
               p.mb-0.text-white #[strong(style="color:#77F0E2 !important;") Una batidora manual:] debe ir de forma uniforme hasta tener la consistencia adecuada.
@@ -348,7 +348,7 @@
           .col-lg.mb-4.mb-lg-0.pe-lg-0
             .p-4.d-flex.align-content-center.flex-wrap.h-100(style="background-color:#E8EBF8;")
               p.fw-bold Tenga en cuenta que: 
-              p.mb-0 Evite batir en exceso la crema una vez haya alcanzado la consistencia adecuada para impedir la inversión de la emulsión y de esta manera dañarla la crema. Si la crema no se va a utilizar de inmediato debe llevarla a la nevera a temperatura  de 5 °C máximo 12 horas. 
+              p.mb-0 Evite batir en exceso la crema una vez haya alcanzado la consistencia adecuada para impedir la inversión de la emulsión y de esta manera dañar la la crema. Si la crema no se va a utilizar de inmediato, debe llevarla a la nevera a temperatura  de 5 °C máximo 12 horas. 
           .col-lg-auto.ps-lg-0
             figure.m-auto.col-9.col-md-7.col-lg-12
               img(src="@/assets/curso/tema1/44.png")
@@ -794,7 +794,7 @@
           figure
             img(src="@/assets/curso/tema1/75.svg" style="max-width:250px;display:inline;")
           h5.mt-3 Colocar ingredientes
-          p Coloque en la olla de la batidora la margarina especial o la mantequilla junto con el azúcar previamente tamizado. 
+          p Coloque en la olla de la batidora la margarina especial o la mantequilla junto con el azúcar previamente tamizada. 
       .col-lg.col-md-8.mb-4.mb-lg-0(data-aos="zoom-in")
         .h-100.p-4.p-lg-5.cont_1_10.text-center(style="background-color:#A4B2E4;border:1px #1D3FBB solid;border-radius:5px;")
           figure

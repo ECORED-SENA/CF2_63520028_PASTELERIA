@@ -264,7 +264,7 @@ export default {
     {
       termino: 'Espátula',
       significado:
-        'herramienta de cocina utilizada para mezclar, esparcir o manipular ingredientes y mezclas. puede ser de madera, caucho o plástico.',
+        'herramienta de cocina utilizada para mezclar, esparcir o manipular ingredientes y mezclas. Puede ser de madera, caucho o plástico.',
     },
     {
       termino: 'Fécula',
@@ -305,11 +305,6 @@ export default {
         'http://dspace.espoch.edu.ec/bitstream/123456789/10280/1/84T00374.pdf',
     },
     {
-      referencia: 'CAPLAB. (2011). Pastelería: Guía del estudiante.',
-      link:
-        'http://biblioteca.esucomex.cl/RCA/Pasteler%C3%ADa.%20Gu%C3%ADa%20del%20estudiante.pdf',
-    },
-    {
       referencia:
         'Carmona, A.  (2023). Las delicias de Almería. Postres el sabor de tu pueblo.',
       link: 'https://www.terrazacarmona.com/pdf/Libro%20recetas%20Postres.pdf',
@@ -344,12 +339,12 @@ export default {
       autores: [
         {
           nombre: 'Milady Tatiana Villamil Castellanos',
-          cargo: 'Responsable del Ecosistema',
+          cargo: 'Responsable del ecosistema',
           centro: 'Dirección General',
         },
         {
           nombre: 'Olga Constanza Bermúdez Jaimes',
-          cargo: 'Responsable de Línea de Producción',
+          cargo: 'Responsable de línea de producción',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
       ],
@@ -358,8 +353,14 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
+          nombre: 'Henry Oswaldo Acosta Romero',
+          cargo: 'Experto temático',
+          centro:
+            'Centro Nacional de Hotelería y Turismo y Alimentos - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Paola Alexandra Moya Peralta',
+          cargo: 'Evaluadora instruccional',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
       ],
@@ -368,23 +369,13 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Diseñador de Contenidos Digitales',
+          nombre: 'Blanca Flor Tinoco Torres',
+          cargo: 'Diseñador de contenidos digitales',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Desarrollador Fullstack',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
-        },
-        {
-          nombre: 'Nombre',
-          cargo: 'Animador y Producción audiovisual',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
-        },
-        {
-          nombre: 'Nombre',
-          cargo: 'Actividad Didáctica',
+          nombre: 'Luis Jesús Pérez Madariaga',
+          cargo: 'Desarrollador <em>full stack</em>',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
       ],
@@ -393,13 +384,8 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Luis Gabriel Urueta Alvarez',
-          cargo: 'Validador de Recursos Educativos Digitales',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
-        },
-        {
           nombre: 'Jaime Hernán Tejada Llano',
-          cargo: 'Validador de Recursos Educativos Digitales',
+          cargo: 'Validador de recursos educativos digitales',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
