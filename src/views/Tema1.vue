@@ -348,7 +348,7 @@
           .col-lg.mb-4.mb-lg-0.pe-lg-0
             .p-4.d-flex.align-content-center.flex-wrap.h-100(style="background-color:#E8EBF8;")
               p.fw-bold Tenga en cuenta que: 
-              p.mb-0 Evite batir en exceso la crema una vez haya alcanzado la consistencia adecuada para impedir la inversión de la emulsión y de esta manera dañar la la crema. Si la crema no se va a utilizar de inmediato, debe llevarla a la nevera a temperatura  de 5 °C máximo 12 horas. 
+              p.mb-0 Evite batir en exceso la crema una vez haya alcanzado la consistencia adecuada para impedir la inversión de la emulsión y de esta manera dañar la crema. Si la crema no se va a utilizar de inmediato, debe llevarla a la nevera a temperatura  de 5 °C máximo 12 horas. 
           .col-lg-auto.ps-lg-0
             figure.m-auto.col-9.col-md-7.col-lg-12
               img(src="@/assets/curso/tema1/44.png")
