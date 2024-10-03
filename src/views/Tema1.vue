@@ -447,7 +447,7 @@
               figure.m-auto.col-10.col-md-8.col-lg-12
                 img(src='@/assets/curso/tema1/48.png')
     
-    p.mt-4(data-aos="fade-right") Antes de iniciar la preparación verifique la disposición de los ingredientes:
+    p.mt-4(data-aos="fade-right") Antes de iniciar la preparación, verifique la disposición de los ingredientes:
     
     .row.mt-4
       .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
@@ -735,7 +735,7 @@
                 p.text-white.mb-0 La crema pastelera se utiliza como relleno en muchos productos de panadería y pastelería, como danesas, milhojas y pies. Es esencial que quede cremosa y sin grumos. Se puede elaborar neutra o con sabor a chocolate, café o vainilla, según el caso.
           .p-4.bg-white.mt-4(style="border:1px #1D3FBB solid;border-radius:10px;")
             p.fw-bold Tenga en cuenta que
-            p.mb-0 En la preparación de crema de mantequilla existen bastantes variaciones, éstas se pueden saborizar con el fin de modificar el sabor.
+            p.mb-0 En la preparación de crema de mantequilla existen bastantes variaciones, estas se pueden saborizar con el fin de modificar el sabor.
         .col-lg-4(data-aos="fade-left")
           figure.m-auto.col-5.col-md-5.col-lg-12
             img(src="@/assets/curso/tema1/73.png")
@@ -830,7 +830,7 @@
                   div Agregue café instantáneo o cocoa en una proporción del 5% o más de los ingredientes a la fórmula anterior.
                 li.d-flex.mb-1
                   i.fas.fa-bread-slice(style="color:#1D3FBB;")
-                  div La adición de yemas es opcional; use 4 unidades por cada kilogramo de mantequilla.
+                  div La adición de yemas es opcional, use 4 unidades por cada kilogramo de mantequilla.
 
     Separador
 

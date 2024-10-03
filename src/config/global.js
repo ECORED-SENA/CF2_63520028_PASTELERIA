@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Preparaciones y usos de cremas en pastelería',
     descripcionCurso:
-      'El componente presenta la preparación y usos de diversas cremas en pastelería, como la crema chantilly, pastelera, inglesa y de mantequilla. Incluye recetas detalladas, equipos e ingredientes necesarios, y técnicas de elaboración. Además, se mencionan métodos de preparación para batidos livianos y pesados, así como decoraciones con pastillaje, ganache, brillo de chocolate y salsas de frutas.',
+      'El componente presenta la preparación y usos de diversas cremas en pastelería, como la crema <i>chantilly</i>, pastelera, inglesa y de mantequilla. Incluye recetas detalladas, equipos e ingredientes necesarios, y técnicas de elaboración. Además, se mencionan métodos de preparación para batidos livianos y pesados, así como decoraciones con pastillaje, ganache, brillo de chocolate y salsas de frutas.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [

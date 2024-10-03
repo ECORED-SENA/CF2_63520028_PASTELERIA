@@ -147,7 +147,7 @@
                   img(src='@/assets/curso/tema3/9.png')
             .row.col-xl-11.m-auto(titulo="Paso")
               .col-lg-7.mb-4.mb-lg-0(style="place-self:center;")
-                p Previamente retire y ponga a secar por 24 horas. 
+                p Previamente, retire y ponga a secar por 24 horas. 
               .col-lg-5
                 figure.m-auto.col-10.col-md-7.col-lg-12
                   img(src='@/assets/curso/tema3/10.png')
@@ -641,7 +641,7 @@
                 li.d-flex.mb-3
                   .lista-ol--cuadro__vineta.bg-white
                     span.fw-bold(style="color:#12263F;") 2
-                  div Lleve a ebullición y concentre o espese a la firmeza deseada revolviendo continuamente para evitar que se queme.
+                  div Lleve a ebullición y concentre o espese a la firmeza deseada, revolviendo continuamente para evitar que se queme.
                 li.d-flex.mb-0
                   .lista-ol--cuadro__vineta.bg-white
                     span.fw-bold(style="color:#12263F;") 3

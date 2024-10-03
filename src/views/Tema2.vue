@@ -350,7 +350,7 @@
           .row.col-xl-11.m-auto(titulo="Paso")
             .col-lg-7.mb-4.mb-lg-0(style="place-self:center;")
               h5 Hornear
-              p  Hornear a 350 grados Fahrenheit (175 grados Celsius) durante aproximadamente una hora, o hasta que al insertar un palillo en el centro, éste salga limpio. 
+              p  Hornear a 350 grados Fahrenheit (175 grados Celsius) durante aproximadamente una hora, o hasta que, al insertar un palillo en el centro, este salga limpio. 
             .col-lg-5
               figure.m-auto.col-10.col-md-7.col-lg-12
                 img(src='@/assets/curso/tema2/22.png')
@@ -442,9 +442,6 @@
                         td.p-3.text-center Polvo para hornear
                         td.p-3.text-center 1 pizca 
                       tr.bg-white
-                        td.p-3.text-center Vainilla
-                        td.p-3.text-center 2 tips
-                      tr.bg-white
                         td.p-3.text-center Sal
                         td.p-3.text-center Pizca
                       tr.bg-white
@@ -504,7 +501,7 @@
           .row.col-xl-11.m-auto(titulo="Paso")
             .col-lg-7.mb-4.mb-lg-0(style="place-self:center;")
               h5 Hornear
-              p Hornear en un horno precalentado a 350 grados Fahrenheit (175 grados Celsius) durante aproximadamente 20-25 minutos, o hasta que al insertar un palillo en el centro, éste salga con algunas migas húmedas (no completamente limpio, para asegurar la textura #[em fudgy]).  
+              p Hornear en un horno precalentado a 350 grados Fahrenheit (175 grados Celsius) durante aproximadamente 20-25 minutos, o hasta que, al insertar un palillo en el centro, este salga con algunas migas húmedas (no completamente limpio, para asegurar la textura #[em fudgy]).  
             .col-lg-5
               figure.m-auto.col-10.col-md-7.col-lg-12
                 img(src='@/assets/curso/tema2/32.png')
