@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="89" height="89" viewBox="0 0 89 89">
+  <g id="Grupo_1100513" data-name="Grupo 1100513" transform="translate(-755.813 -3008)">
+    <g id="Grupo_1098742" data-name="Grupo 1098742" transform="translate(755.813 3008)">
+      <g id="Rectángulo_400898" data-name="Rectángulo 400898" fill="#1d3fbb" stroke="#fff" stroke-width="3" opacity="0.859">
+        <rect width="89" height="89" rx="44.5" stroke="none"/>
+        <rect x="1.5" y="1.5" width="86" height="86" rx="43" fill="none"/>
+      </g>
+      <rect id="Rectángulo_400907" data-name="Rectángulo 400907" width="89" height="89" rx="44.5" transform="translate(0)" fill="#1d3fbb"/>
+    </g>
+    <g id="masa" transform="translate(770.605 2971.246)">
+      <path id="Trazado_876000" data-name="Trazado 876000" d="M322.966,182.5,303.6,196.785l3.8,16.708h3.628a15.965,15.965,0,0,0,15.965-15.965A29.916,29.916,0,0,0,322.966,182.5Z" transform="translate(-266.877 -109.222)" fill="#ffc44f"/>
+      <path id="Trazado_876001" data-name="Trazado 876001" d="M274.534,73.278A30.043,30.043,0,0,0,248.5,58.25l6.664,29.313A30.1,30.1,0,0,0,274.534,73.278Z" transform="translate(-218.444)" fill="#ffd88a"/>
+      <path id="Trazado_876002" data-name="Trazado 876002" d="M54.22,185.345,4.022,182.5A29.916,29.916,0,0,0,0,197.528a15.965,15.965,0,0,0,15.965,15.965H40.518a15.965,15.965,0,0,0,15.965-15.965A33.482,33.482,0,0,0,54.22,185.345Z" transform="translate(0 -109.222)" fill="#ffd88a"/>
+      <g id="Grupo_1100512" data-name="Grupo 1100512" transform="translate(4.022 58.25)">
+        <path id="Trazado_876003" data-name="Trazado 876003" d="M59.287,88.306A30.011,30.011,0,0,0,83.451,76.123C79.341,65.594,70.069,58.25,59.287,58.25A30.043,30.043,0,0,0,33.253,73.278,30.043,30.043,0,0,0,59.287,88.306Z" transform="translate(-33.253 -58.25)" fill="#ffebc4"/>
+        <circle id="Elipse_11614" data-name="Elipse 11614" cx="0.907" cy="0.907" r="0.907" transform="translate(47.925 29.149)" fill="#ffebc4"/>
+        <circle id="Elipse_11615" data-name="Elipse 11615" cx="0.907" cy="0.907" r="0.907" transform="translate(2.328 29.149)" fill="#ffebc4"/>
+        <circle id="Elipse_11616" data-name="Elipse 11616" cx="0.907" cy="0.907" r="0.907" transform="translate(11.036 37.857)" fill="#ffebc4"/>
+      </g>
+      <circle id="Elipse_11617" data-name="Elipse 11617" cx="0.907" cy="0.907" r="0.907" transform="translate(29.149 66.414)" fill="#ffd88a"/>
+      <circle id="Elipse_11618" data-name="Elipse 11618" cx="0.907" cy="0.907" r="0.907" transform="translate(35.563 63.757)" fill="#ffd88a"/>
+      <circle id="Elipse_11619" data-name="Elipse 11619" cx="0.907" cy="0.907" r="0.907" transform="translate(22.734 63.757)" fill="#ffd88a"/>
+    </g>
+  </g>
+</svg>
