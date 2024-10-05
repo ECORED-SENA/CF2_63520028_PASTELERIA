@@ -191,14 +191,14 @@ export default {
   complementario: [
     {
       tema: 'Cremas',
-      referencia: 'SENA (2012). Pastelería Cap1 [Archivo de video] Youtube.',
+      referencia: 'SENA (2012). Pastelería Cap1 [Archivo de video] YouTube.',
       tipo: 'Video',
       link: 'https://youtu.be/ODB4fO0t9LE?feature=shared',
     },
     {
       tema: 'Crema <em>chantilly</em>',
       referencia:
-        'Juliana Postres (2020). Cómo Hacer Una Crema Chantillí Perfecta. [Archivo de video] Youtube.',
+        'Juliana Postres (2020). Cómo Hacer Una Crema Chantillí Perfecta. [Archivo de video] YouTube.',
       tipo: 'Video',
       link:
         'https://www.youtube.com/watch?v=3-QusyQJLZI&ab_channel=JulianaPostres',
@@ -206,7 +206,7 @@ export default {
     {
       tema: 'Crema pastelera',
       referencia:
-        'Chef JoséRa Castillo (2023). CEEMA PASTELERA! ¿Qué errores evitar al prepararla? Mis consejos revelados  [Archivo de video] Youtube.',
+        'Chef JoséRa Castillo (2023). CEEMA PASTELERA! ¿Qué errores evitar al prepararla? Mis consejos revelados  [Archivo de video] YouTube.',
       tipo: 'Video',
       link:
         'https://www.youtube.com/watch?v=sjKNSj56me8&ab_channel=ChefJos%C3%A9RaCastillo',
@@ -214,7 +214,7 @@ export default {
     {
       tema: 'Crema inglesa',
       referencia:
-        'CanalCandido (2012). Crema inglesa [Archivo de video] Youtube.',
+        'CanalCandido (2012). Crema inglesa [Archivo de video] YouTube.',
       tipo: 'Video',
       link:
         'https://www.youtube.com/watch?v=v5php-jW_Ig&ab_channel=CanalCandido',
@@ -222,7 +222,7 @@ export default {
     {
       tema: '<em>Brownie</em>',
       referencia:
-        'Cocina Para Todos (2019). El mejor BROWNIE de CHOCOLATE del Mundo.  [Archivo de video] Youtube.',
+        'Cocina Para Todos (2019). El mejor BROWNIE de CHOCOLATE del Mundo.  [Archivo de video] YouTube.',
       tipo: 'Video',
       link:
         'https://www.youtube.com/watch?v=xlB8o0HsYcQ&ab_channel=CocinaParaTodos',
@@ -230,7 +230,7 @@ export default {
     {
       tema: '<em>Muffin:</em> ponquecito dulce ',
       referencia:
-        'Cuk-it!. (2023). MUFFINS de ARÁNDANOS con Crumble - CUKit! [Archivo de video] Youtube. ',
+        'Cuk-it!. (2023). MUFFINS de ARÁNDANOS con Crumble - CUKit! [Archivo de video] YouTube. ',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=-XFA_J7Cs7U&ab_channel=Cuk-it%21',
     },
